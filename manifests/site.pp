@@ -97,7 +97,7 @@ node default {
   include chrome
   include sublime_text_2
   include wunderlist
-  include spoitify
+  include spotify
   include dropbox
 
   $home     = "/Users/${::luser}"
