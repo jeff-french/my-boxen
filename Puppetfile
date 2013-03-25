@@ -34,6 +34,7 @@ github "sudo",     "1.0.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "sysctl",        "1.0.0"
 github "vmware_fusion",	"1.0.0"
 github "iterm2",		"1.0.2"
 github "skype",			"1.0.2"
