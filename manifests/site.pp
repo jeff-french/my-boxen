@@ -109,6 +109,10 @@ node default {
     require => File[$my]
   }
 
+  file { "${my}":
+    ensure => "directory"
+  }
+
   file { "${home}/.bash_colors":
     ensure => link,
   	target => "${dotfiles}/.bash_colors",
